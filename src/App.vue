@@ -5,6 +5,9 @@
       <el-button type="success" @click="goto('/options-ts')">Options API + TS</el-button>
       <el-button type="danger" @click="goto('/composition')">Composition API</el-button>
       <el-button type="warning" @click="goto('/composition-ts')">Composition API + TS</el-button>
+      <el-button type="info" @click="goto('/ref-sugar1')">RefSugar</el-button>
+      <el-button @click="goto('/study')">Study</el-button>
+
     </div>
   <router-view/>
 </template>

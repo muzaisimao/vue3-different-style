@@ -28,7 +28,12 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/ref-sugar1',
     name: 'RefSugar1',
-    component: () => import(/* webpackChunkName: "RefSugar" */ '../views/RefSugar1.vue'),
+    component: () => import(/* webpackChunkName: "ref-sugar" */ '../views/RefSugar1.vue'),
+  },
+  {
+    path: '/study',
+    name: 'Study',
+    component: () => import(/* webpackChunkName: "study" */ '../views/Study.vue'),
   },
 ];
 
