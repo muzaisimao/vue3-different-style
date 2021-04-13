@@ -1,5 +1,5 @@
 <template>
-    <h1>Ref-Sugar</h1>
+    <h1>Ref-Sugar#228</h1>
     <h2>{{ count }}</h2>
 
     <div class="num">
@@ -12,6 +12,7 @@
 </template>
 
 <script setup>
+// 提案地址: https://github.com/vuejs/rfcs/pull/228
 import { computed, onMounted } from 'vue';
 
 ref: num1 = 0;
@@ -20,11 +21,11 @@ ref: count = computed(() => num1 + num2);
 
 function handleClick(type) {
   if (type === '+') { num1 += 2; }
-  if (type === '-') { num2 -= 2; }
+  if (type === '-') { num1 -= 2; }
 }
 
 onMounted(() => {
-  console.log('Ref-Sugar :>> ');
+  console.log('Ref-Sugar#228 :>> ');
 });
 </script>
 

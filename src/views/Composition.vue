@@ -9,34 +9,14 @@
     </div>
 
     <el-input v-model.number="num2" style="width: 240px;"></el-input>
-
-   <div>
-      <button @click="updateValue">click</button>
-      <p>{{ value }}</p>
-      <p>value: {{ $store.state.value }}</p>
-   </div>
 </template>
 
 <script>
-/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 import { ref, computed, onMounted } from 'vue';
-import { useStore, mapState, mapMutations } from 'vuex';
 
 export default {
   name: 'Composition',
   setup() {
-    const $store = useStore();
-    function useState(key) {
-      return computed(() => mapState([key])[key].call({ $store }));
-    }
-    function useMutations(key) {
-      return mapMutations([key])[key].bind({ $store })();
-    }
-
-    const value = useState('value');
-    const updateValue = () => useMutations('updateValue');
-    console.log('updateValue :>> ', updateValue);
-
     const num1 = ref(0);
     const num2 = ref(10);
 
@@ -56,8 +36,6 @@ export default {
       num2,
       count,
       handleClick,
-      value,
-      updateValue,
     };
   },
 };

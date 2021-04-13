@@ -5,8 +5,8 @@
       <el-button type="success" @click="goto('/options-ts')">Options API + TS</el-button>
       <el-button type="danger" @click="goto('/composition')">Composition API</el-button>
       <el-button type="warning" @click="goto('/composition-ts')">Composition API + TS</el-button>
-      <el-button type="info" @click="goto('/ref-sugar1')">RefSugar</el-button>
-      <el-button @click="goto('/study')">Study</el-button>
+      <el-button type="info" @click="goto('/ref-sugar228')">RefSugar#228</el-button>
+      <el-button @click="goto('/ref-sugar227')">RefSugar#227</el-button>
 
     </div>
   <router-view/>
@@ -20,11 +20,6 @@ export default defineComponent({
   methods: {
     goto(path: string) {
       this.$router.push(path);
-      // const a = Math.random();
-      // a && Math.random();
-
-      // const num = a ? 1 : 2;
-      // const num2 = a ? num ? 3 : 4 : 1;
     },
   },
 });
