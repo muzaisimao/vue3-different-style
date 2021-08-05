@@ -26,14 +26,19 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import(/* webpackChunkName: "Composition" */ '../views/CompositionTS.vue'),
   },
   {
-    path: '/ref-sugar228',
-    name: 'RefSugar228',
-    component: () => import(/* webpackChunkName: "ref-sugar" */ '../views/RefSugar228.vue'),
-  },
-  {
     path: '/ref-sugar227',
     name: 'RefSugar227',
     component: () => import(/* webpackChunkName: "ref-sugar" */ '../views/RefSugar227.vue'),
+  },
+  // {
+  //   path: '/ref-sugar228',
+  //   name: 'RefSugar228',
+  //   component: () => import(/* webpackChunkName: "ref-sugar" */ '../views/RefSugar228-del.vue'),
+  // },
+  {
+    path: '/ref-sugar369',
+    name: 'RefSugar369',
+    component: () => import(/* webpackChunkName: "ref-sugar" */ '../views/RefSugar369.vue'),
   },
 ];
 
