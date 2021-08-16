@@ -24,7 +24,7 @@ export default {
 
     function handleClick(type) {
       if (type === '+') { num1.value += 2; }
-      if (type === '-') { num2.value -= 2; }
+      if (type === '-') { num1.value -= 2; }
     }
 
     onMounted(() => {
