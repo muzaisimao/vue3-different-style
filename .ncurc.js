@@ -1,4 +1,4 @@
 module.exports = {
-  target: ['latest', 'newest', 'greatest', 'minor', 'patch'][0],
+  target: ['latest', 'newest', 'greatest', 'minor', 'patch'][3],
   reject: ['sass-loader'],
 };

@@ -13,11 +13,17 @@
 
 <script setup>
 // 提案地址: https://github.com/vuejs/rfcs/discussions/369
-import { onMounted } from 'vue';
+import { onMounted, ref, computed } from 'vue';
 
+// sugar
+// let num1 = $(ref(0));
+// let num2 = $(ref(10));
+// let count = $(computed(() => num1 + num2));
+
+// aliases
 let num1 = $ref(0);
 let num2 = $ref(10);
-const count = $computed(() => num1 + num2);
+let count = $computed(() => num1 + num2);
 
 function handleClick(type) {
   if (type === '+') { num1 += 2; }
