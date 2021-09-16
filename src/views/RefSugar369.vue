@@ -13,7 +13,8 @@
 
 <script setup>
 // 提案地址: https://github.com/vuejs/rfcs/discussions/369
-import { onMounted, ref, computed } from 'vue';
+// 文档: https://github.com/vuejs/rfcs/blob/ref-sugar-2/active-rfcs/0000-ref-sugar.md
+import { onMounted } from 'vue';
 
 // sugar
 // let num1 = $(ref(0));
