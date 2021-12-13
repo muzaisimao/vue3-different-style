@@ -37,7 +37,6 @@ export default defineComponent({
     handleClick(type: string): void {
       if (type === '+') { this.num1 += 2; }
       if (type === '-') { this.num1 -= 2; }
-      1 && window.open();
     },
   },
   created() {
