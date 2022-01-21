@@ -1,13 +1,13 @@
 <template>
     <img alt="Vue logo" src="./assets/logo.png" style="margin: 50px;">
     <div style="margin: 30px 0px;">
-      <el-button type="primary" @click="goto('/options')">Options API</el-button>
-      <el-button type="success" @click="goto('/options-ts')">Options API + TS</el-button>
-      <el-button type="info" @click="goto('/composition')">Composition API</el-button>
-      <el-button type="warning" @click="goto('/composition-ts')">Composition API + TS</el-button>
-      <el-button @click="goto('/ref-sugar227')">RefSugar#227</el-button>
-      <el-button type="success" plain @click="goto('/ref-sugar369')">RefSugar#369</el-button>
-      <el-button type="danger">RefSugar#228 - 废弃了</el-button>
+      <el-button size="large" type="primary" @click="goto('/options')">Options API</el-button>
+      <el-button size="large" type="success" @click="goto('/options-ts')">Options API + TS</el-button>
+      <el-button size="large" type="info" @click="goto('/composition')">Composition API</el-button>
+      <el-button size="large" type="warning" @click="goto('/composition-ts')">Composition API + TS</el-button>
+      <el-button size="large" @click="goto('/ref-sugar227')">RefSugar#227</el-button>
+      <el-button size="large" type="success" plain @click="goto('/ref-sugar369')">RefSugar#369</el-button>
+      <el-button size="large" type="danger">RefSugar#228 - 废弃了</el-button>
     </div>
   <router-view/>
 </template>
