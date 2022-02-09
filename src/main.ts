@@ -12,5 +12,4 @@ app.use(store);
 app.use(router);
 app.use(ElementPlus);
 
-app.config.globalProperties.$api = { getData: () => 'data' };
 app.mount('#app');
