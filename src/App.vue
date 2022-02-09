@@ -1,24 +1,22 @@
 <template>
-    <img alt="Vue logo" src="./assets/logo.png" style="margin: 50px;">
-    <div style="margin: 30px 0px;">
-      <el-button size="large" type="primary" @click="goto('/options')">Options API</el-button>
-      <el-button size="large" type="success" @click="goto('/options-ts')">Options API + TS</el-button>
-      <el-button size="large" type="info" @click="goto('/composition')">Composition API</el-button>
-      <el-button size="large" type="warning" @click="goto('/composition-ts')">Composition API + TS</el-button>
-      <el-button size="large" @click="goto('/ref-sugar227')">RefSugar#227</el-button>
-      <el-button size="large" type="success" plain @click="goto('/ref-sugar369')">RefSugar#369</el-button>
-      <el-button size="large" type="danger">RefSugar#228 - 废弃了</el-button>
-    </div>
-  <router-view/>
+  <img alt="Vue logo" src="./assets/logo.png" style="margin: 50px;">
+  <div style="margin: 30px 0px;">
+    <el-button size="large" plain type="primary" @click="goto('/options')">Options API</el-button>
+    <el-button size="large" plain type="warning" @click="goto('/composition')">Composition API</el-button>
+    <el-button size="large" plain type="info" @click="goto('/ref-sugar227')">RefSugar#227</el-button>
+    <el-button size="large" plain type="success" @click="goto('/ref-sugar369')">RefSugar#369</el-button>
+    <el-button size="large" plain type="danger">RefSugar#228 - 废弃了</el-button>
+  </div>
+  <router-view />
 </template>
 
-<script lang="ts">
+<script>
 import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'App',
   methods: {
-    goto(path: string) {
+    goto(path) {
       this.$router.push(path);
     },
   },
@@ -27,9 +25,6 @@ export default defineComponent({
 
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
 }

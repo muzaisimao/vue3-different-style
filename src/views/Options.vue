@@ -27,14 +27,14 @@ export default {
       return this.num1 + this.num2;
     },
   },
+  created() {
+    console.log('Options API :>> ');
+  },
   methods: {
     handleClick(type) {
       if (type === '+') { this.num1 += 2; }
       if (type === '-') { this.num1 -= 2; }
     },
-  },
-  created() {
-    console.log('Options API :>> ');
   },
 };
 </script>

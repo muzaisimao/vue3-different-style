@@ -1,14 +1,14 @@
 <template>
-    <h1>Composition API</h1>
-    <h2>{{ count }}</h2>
+  <h1>Composition API</h1>
+  <h2>{{ count }}</h2>
 
-    <div class="num">
-      <el-button @click="handleClick('-')">减少-</el-button>
-      <span class="num1">{{ num1 }}</span>
-      <el-button @click="handleClick('+')">增加+</el-button>
-    </div>
+  <div class="num">
+    <el-button @click="handleClick('-')">减少-</el-button>
+    <span class="num1">{{ num1 }}</span>
+    <el-button @click="handleClick('+')">增加+</el-button>
+  </div>
 
-    <el-input v-model.number="num2" style="width: 240px;"></el-input>
+  <el-input v-model.number="num2" style="width: 240px;"></el-input>
 </template>
 
 <script>

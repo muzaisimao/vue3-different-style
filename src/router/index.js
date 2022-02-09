@@ -1,6 +1,6 @@
-import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 
-const routes: Array<RouteRecordRaw> = [
+const routes = [
   {
     path: '/',
     redirect: '/options',
@@ -11,19 +11,9 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import(/* webpackChunkName: "options" */ '../views/Options.vue'),
   },
   {
-    path: '/options-ts',
-    name: 'OptionsTS',
-    component: () => import(/* webpackChunkName: "options" */ '../views/OptionsTS.vue'),
-  },
-  {
     path: '/composition',
     name: 'Composition',
     component: () => import(/* webpackChunkName: "composition" */ '../views/Composition.vue'),
-  },
-  {
-    path: '/composition-ts',
-    name: 'CompositionTS',
-    component: () => import(/* webpackChunkName: "Composition" */ '../views/CompositionTS.vue'),
   },
   {
     path: '/ref-sugar227',
