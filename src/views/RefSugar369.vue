@@ -12,18 +12,8 @@
 </template>
 
 <script setup>
-// 提案地址: https://github.com/vuejs/rfcs/discussions/369
-// - https://github.com/vuejs/rfcs/discussions/413
-// 文档: https://github.com/vuejs/rfcs/blob/ref-sugar-2/active-rfcs/0000-ref-sugar.md
-// - https://github.com/vuejs/vue-next/tree/master/packages/reactivity-transform
 import { onMounted } from 'vue';
 
-// sugar
-// let num1 = $(ref(0));
-// let num2 = $(ref(10));
-// let count = $(computed(() => num1 + num2));
-
-// aliases
 let num1 = $ref(0);
 const num2 = $ref(10);
 const count = $computed(() => num1 + num2);

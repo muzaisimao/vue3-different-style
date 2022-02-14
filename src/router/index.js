@@ -30,6 +30,11 @@ const routes = [
     name: 'RefSugar369',
     component: () => import(/* webpackChunkName: "ref-sugar" */ '../views/RefSugar369.vue'),
   },
+  {
+    path: '/vue-jsx',
+    name: 'VueJsx',
+    component: () => import(/* webpackChunkName: "vue-jsx" */ '../views/view.jsx'),
+  },
 ];
 
 const router = createRouter({

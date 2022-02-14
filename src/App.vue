@@ -5,6 +5,7 @@
     <el-button size="large" plain type="warning" @click="goto('/composition')">Composition API</el-button>
     <el-button size="large" plain type="info" @click="goto('/ref-sugar227')">RefSugar#227</el-button>
     <el-button size="large" plain type="success" @click="goto('/ref-sugar369')">RefSugar#369</el-button>
+    <el-button size="large" plain @click="goto('/vue-jsx')">vue-jsx</el-button>
     <el-button size="large" plain type="danger">RefSugar#228 - 废弃了</el-button>
   </div>
   <router-view />

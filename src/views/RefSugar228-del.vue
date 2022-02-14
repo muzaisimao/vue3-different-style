@@ -13,7 +13,6 @@
 
 <!-- eslint-disable no-labels, no-unused-labels, no-undef -->
 <script setup>
-// 提案地址: https://github.com/vuejs/rfcs/pull/228 - 提案已废弃
 import { computed, onMounted } from 'vue';
 
 ref: num1 = 0;

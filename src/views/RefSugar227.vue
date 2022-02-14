@@ -12,7 +12,6 @@
 </template>
 
 <script setup>
-// 提案地址: https://github.com/vuejs/rfcs/pull/227
 import { computed, onMounted, ref } from 'vue';
 
 const num1 = ref(0);
