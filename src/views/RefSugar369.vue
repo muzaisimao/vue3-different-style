@@ -26,6 +26,7 @@ function handleClick(type) {
 onMounted(() => {
   console.log('Ref-Sugar#369 :>> ');
 });
+
 </script>
 
 <style>
