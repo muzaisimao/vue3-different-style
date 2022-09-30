@@ -6,25 +6,19 @@ Vue3 测试项目, 用不同的写法实现同样的业务, 做简单的对比
 
 ## 官方文档
 
-新: https://staging-cn.vuejs.org/
-
-旧: https://v3.cn.vuejs.org/
+Docs: https://cn.vuejs.org/
 
 ---
 
 ### composition api
 
-Docs: 
-
-- https://staging-cn.vuejs.org/guide/extras/composition-api-faq.html
-
-- https://composition-api.vuejs.org/zh/
+Docs: https://cn.vuejs.org/guide/extras/composition-api-faq.html
 
 ---
 
 ### RefSugar227
 
-Docs: https://staging-cn.vuejs.org/api/sfc-script-setup.html
+Docs: https://cn.vuejs.org/api/sfc-script-setup.html
 
 提案地址: https://github.com/vuejs/rfcs/pull/227
 
@@ -42,7 +36,7 @@ Docs: https://staging-cn.vuejs.org/api/sfc-script-setup.html
 
 ### RefSugar369
 
-Docs: https://staging-cn.vuejs.org/guide/extras/reactivity-transform.html
+Docs: https://cn.vuejs.org/guide/extras/reactivity-transform.html
 
 提案地址:
 
@@ -56,7 +50,7 @@ Docs: https://staging-cn.vuejs.org/guide/extras/reactivity-transform.html
 
 Docs: 
 
-- https://staging-cn.vuejs.org/guide/extras/render-function.html
+- https://cn.vuejs.org/guide/extras/render-function.html
 
 - https://cn.vitejs.dev/guide/features.html#jsx
 
