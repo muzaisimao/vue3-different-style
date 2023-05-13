@@ -37,7 +37,8 @@ const configs = {
     'object-curly-newline': ['error', { ExportDeclaration: { multiline: true, minProperties: 6 } }],
     'vue/multi-word-component-names': 'off',
     'no-underscore-dangle': 'off', // 允许使用下划线开头的变量名
-    'import/no-unresolved': [2, { ignore: ['^@/'] }], // @ 是设置的路径别名
+    'import/no-unresolved': 'off',
+
   },
   globals: {
     $ref: true,

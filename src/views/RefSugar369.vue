@@ -1,5 +1,6 @@
 <template>
-  <h1>Ref-Sugar#369</h1>
+  <h1>Ref-Sugar-Macros</h1>
+  <h3 style="text-decoration:line-through; color: #909399;">Ref-Sugar#369</h3>
   <h2>{{ count }}</h2>
 
   <div class="num">

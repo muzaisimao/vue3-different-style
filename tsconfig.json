@@ -10,7 +10,8 @@
     },
     "lib": [ "esnext", "dom", "dom.iterable", "scripthost" ],
     "allowJs": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "types": ["@vue-macros/reactivity-transform/macros-global"]
   },
   "include": [
     "src/**/*.ts",
