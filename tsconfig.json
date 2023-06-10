@@ -8,18 +8,15 @@
     "paths": {
       "@/*": ["src/*"]
     },
-    "lib": [ "esnext", "dom", "dom.iterable", "scripthost" ],
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
     "allowJs": true,
     "jsx": "preserve",
-    "types": ["@vue-macros/reactivity-transform/macros-global"]
+    "types": [
+      "element-plus/global",
+      "@vue-macros/reactivity-transform/macros-global"
+    ]
   },
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.js",
-    "src/**/*.jsx",
-    "src/**/*.vue",
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["src/**/*.ts", "src/**/*.js", "src/**/*.jsx", "src/**/*.vue"],
+  "exclude": ["node_modules"],
+  "vueCompilerOptions": {}
 }
