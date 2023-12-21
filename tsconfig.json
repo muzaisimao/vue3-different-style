@@ -10,13 +10,13 @@
     },
     "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
     "allowJs": true,
+    "moduleResolution": "node",
     "jsx": "preserve",
     "types": [
       "element-plus/global",
       "@vue-macros/reactivity-transform/macros-global"
     ]
   },
-  "include": ["src/**/*.ts", "src/**/*.js", "src/**/*.jsx", "src/**/*.vue"],
-  "exclude": ["node_modules"],
-  "vueCompilerOptions": {}
+  "include": ["./src/**/*.js", "./src/**/*.jsx", "./src/**/*.vue"],
+  "exclude": ["./node_modules"]
 }

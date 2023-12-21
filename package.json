@@ -10,20 +10,20 @@
     "lint": "eslint . --ext .js,.vue"
   },
   "dependencies": {
-    "element-plus": "^2.3.6",
-    "vue": "^3.3.4",
-    "vue-router": "^4.2.2",
+    "element-plus": "^2.4.4",
+    "vue": "^3.3.13",
+    "vue-router": "^4.2.5",
     "vuex": "^4.1.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.2.3",
-    "@vitejs/plugin-vue-jsx": "^3.0.1",
-    "@vue-macros/reactivity-transform": "^0.3.10",
-    "eslint": "^8.42.0",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "@vue-macros/reactivity-transform": "^0.4.1",
+    "eslint": "^8.56.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-vue": "^9.14.1",
-    "sass": "^1.63.3",
-    "vite": "^4.3.9"
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-vue": "^9.19.2",
+    "sass": "^1.69.5",
+    "vite": "^5.0.10"
   }
 }
